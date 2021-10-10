@@ -48,13 +48,13 @@ Then:
 7. Over- and undersample using a combination `SMOTEENN` algorithm.
 
 
-Based on the above:
+Analysis:
 
-* Which model had the best balanced accuracy score? All three models based on oversampling data had the best balanced accuracy score.
+* All three models based on oversampling data had the best balanced accuracy score.
 >
-* Which model had the best recall score? The model based on undersampling data had the best recall score. 
+* The model based on undersampling data had the best recall score. 
 >
-* Which model had the best geometric mean score? All the three models showed good geometric mean scores based on the oversampling data.
+* All the three models showed good geometric mean scores based on the oversampling data.
 
 ### Ensemble Learning
 
@@ -71,26 +71,26 @@ First:
 
 Then:
 
-1. Trained the model using the quarterly data from LendingClub provided in the `Resource` folder.
+4. Trained the model using the quarterly data from LendingClub provided in the `Resource` folder.
 
-2. Calculated the balanced accuracy score from `sklearn.metrics`.
+5. Calculated the balanced accuracy score from `sklearn.metrics`.
 
-3. Display the confusion matrix from `sklearn.metrics`.
+6. Displayed the confusion matrix from `sklearn.metrics`.
 
-4. Generated a classification report using the `imbalanced_classification_report` from imbalanced learn.
+7. Generated a classification report using the `imbalanced_classification_report` from imbalanced learn.
 
-5. For the balanced random forest classifier only, I printed the feature importance sorted in descending order (most important feature to least important) along with the feature score.
+8. For the balanced random forest classifier only, I printed the feature importance sorted in descending order (most important feature to least important) along with the feature score.
 
 
-Use the above to answer the following questions:
+Analysis:
 
-* Which model had the best balanced accuracy score?
+* Easy Ensemble Classifier has the best balanced accuracy score.
 
-* Which model had the best recall score?
+* Easy Ensemble Classifier had the best recall score?
 
-* Which model had the best geometric mean score?
+* Easy Ensemble Classifier had the best geometric mean score?
 
-* What are the top three features?
+* The top three features are 'total_rec_prncp', 'last_pymnt_amnt', 'total_pymnt'
 
 - - -
 
