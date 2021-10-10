@@ -25,7 +25,7 @@ In this assignment I built and evaluated several machine learning models to pred
 
 I used the [imbalanced learn](https://imbalanced-learn.readthedocs.io) library to resample the LendingClub data and built and evaluated logistic regression classifiers using the resampled data.
 
-First:
+*First:* 
 
 1. Read the CSV into a DataFrame.
 
@@ -39,7 +39,7 @@ First:
     * Displayed the `confusion matrix` from `sklearn.metrics`.
     * Printed the `imbalanced classification report` from `imblearn.metrics`.
 
-Then:
+*Then:*
 
 5. Oversample the data using the `Naive Random Oversampler` and `SMOTE` algorithms.
 
@@ -48,7 +48,7 @@ Then:
 7. Over- and undersample using a combination `SMOTEENN` algorithm.
 
 
-Analysis:
+*Analysis:*
 
 * All three models based on oversampling data had the best balanced accuracy score.
 >
@@ -60,7 +60,7 @@ Analysis:
 
 In this section, I trained and compared two different ensemble classifiers to predict loan risk and evaluated each model. I used the [Balanced Random Forest Classifier](https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html) and the [Easy Ensemble Classifier](https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.EasyEnsembleClassifier.html). 
 
-First:
+*First:*
 
 1. Read the data into a DataFrame using the provided starter code.
 
@@ -69,7 +69,7 @@ First:
 3. Scaled the training and testing data using the `StandardScaler` from `sklearn.preprocessing`.
 
 
-Then:
+*Then:*
 
 4. Trained the model using the quarterly data from LendingClub provided in the `Resource` folder.
 
@@ -82,7 +82,7 @@ Then:
 8. For the balanced random forest classifier only, I printed the feature importance sorted in descending order (most important feature to least important) along with the feature score.
 
 
-Analysis:
+*Analysis:*
 
 * Easy Ensemble Classifier has the best balanced accuracy score.
 
