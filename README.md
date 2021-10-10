@@ -84,13 +84,13 @@ In this section, I trained and compared two different ensemble classifiers to pr
 
 **Analysis:**
 
-* Easy Ensemble Classifier has the best balanced accuracy score.
+* Easy Ensemble Classifier had the best balanced accuracy score.
 
 * Easy Ensemble Classifier had the best recall score?
 
 * Easy Ensemble Classifier had the best geometric mean score?
 
-* The top three features are 'total_rec_prncp', 'last_pymnt_amnt', 'total_pymnt'
+* The top three features were 'total_rec_prncp', 'last_pymnt_amnt', 'total_pymnt'
 
 - - -
 
